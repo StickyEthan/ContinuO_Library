@@ -300,7 +300,7 @@
 		)
 		(symbol "TLV1814DR_4_1"
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "IN4-"
 					(effects
@@ -318,7 +318,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "IN4+"
 					(effects
