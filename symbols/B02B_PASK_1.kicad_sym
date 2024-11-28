@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "S03B-XASK-1LFSN"
+	(symbol "B02B-PASK-1"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "S03B-XASK-1LFSN"
+		(property "Value" "B02B-PASK-1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_S03B-XASK_JST"
+		(property "Footprint" "footprints:CONN_B02B-PASK-1_JST"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "S03B-XASK-1LFSN"
+		(property "Datasheet" "B02B-PASK-1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54,15 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "S03B-XASK-1(LF)(SN)"
+		(property "ki_keywords" "B02B-PASK-1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +63,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CONN_S03B-XASK_JST"
+		(property "ki_fp_filters" "CONN_B02B-PASK-1_JST"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,10 +72,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "S03B-XASK-1LFSN_1_1"
+		(symbol "B02B-PASK-1_1_1"
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 12.7 -7.62)
+					(xy 5.08 -5.08) (xy 12.7 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -95,43 +87,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -5.08) (xy 5.08 -5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -5.08) (xy 8.89 -5.9267)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					(xy 5.08 2.54) (xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -215,7 +171,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -7.62) (xy 12.7 2.54)
+					(xy 12.7 -5.08) (xy 12.7 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -237,7 +193,7 @@
 					(type none)
 				)
 			)
-			(pin output line
+			(pin unspecified line
 				(at 0 0 0)
 				(length 5.08)
 				(name "1"
@@ -255,7 +211,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin unspecified line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "2"
@@ -273,29 +229,11 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(symbol "S03B-XASK-1LFSN_1_2"
+		(symbol "B02B-PASK-1_1_2"
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 12.7 -7.62)
+					(xy 5.08 -5.08) (xy 12.7 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -307,43 +245,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -5.08) (xy 5.08 -5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -5.08) (xy 8.89 -5.9267)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					(xy 5.08 2.54) (xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -427,7 +329,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -7.62) (xy 12.7 2.54)
+					(xy 12.7 -5.08) (xy 12.7 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -478,24 +380,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

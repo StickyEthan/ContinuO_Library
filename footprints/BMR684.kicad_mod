@@ -210,4 +210,15 @@
 		(remove_unused_layers no)
 		(uuid "786fdd23-1e3a-4fb0-a092-a24804923692")
 	)
+	(model "${KIPRJMOD}/Library_DO_NOT_CHANGE/3D_models/BMR6841100.step"
+		(offset
+			(xyz -3.5 -26 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

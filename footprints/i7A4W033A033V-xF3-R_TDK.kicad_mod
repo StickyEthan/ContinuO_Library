@@ -356,4 +356,15 @@
 		(remove_unused_layers no)
 		(uuid "4e9dda11-fe8d-42f4-8a71-3f5698b234c1")
 	)
+	(model "${KIPRJMOD}/Library_DO_NOT_CHANGE/3D_models/i7A4W033A033V-xF3-R_TDK.step"
+		(offset
+			(xyz -2.5 10.75 11.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )
