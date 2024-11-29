@@ -1,0 +1,113 @@
+(footprint "696103101002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-FSH Fuseholder SMT Blocks PCB Clip Cover")
+	(property "Reference" "REF**"
+		(at 0 -6.135 0)
+		(layer "F.SilkS")
+		(uuid "ec8ef50c-3771-4557-a6e7-6011d14ef599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "696103101002"
+		(at 0.25 3.75 0)
+		(layer "F.Fab")
+		(uuid "cc861112-101b-414d-9895-e83942f47308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57867f93-fdf0-41b0-9e4d-509fb1b248f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db9b8483-c93d-47a6-87fa-dc7b5753b986")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85c6bb27-a060-4c55-8508-89a3bedcd722")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -11.75 -5)
+		(end 11.75 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9cea775b-d922-4c74-8c83-8f6cbc2a7c25")
+	)
+	(fp_rect
+		(start -12 -5.25)
+		(end 12 5.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9f21f035-4685-433b-8bb0-bf60f2feb93a")
+	)
+	(pad "1" smd rect
+		(at -8.5 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "004c84ea-ac85-4647-8c42-6505aa48cc58")
+	)
+	(pad "2" smd rect
+		(at 8.5 0)
+		(size 6 6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "6e63f079-ff25-471b-91c3-4f7813596c01")
+	)
+	(model "${KIPRJMOD}/Library_DO_NOT_CHANGE/3D_models/69103101002.step"
+		(offset
+			(xyz -11.2 -4.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

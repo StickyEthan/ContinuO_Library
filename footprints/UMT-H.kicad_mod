@@ -1,0 +1,140 @@
+(footprint "UMT-H"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3516dba-fdc4-4ed2-a84f-384ba14b7817")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "UMT-H"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54d28696-2218-40ca-9e31-8756f3e3dad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -8.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2e5c479-c60d-4301-aeb7-02d281e1fedc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -8.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9babf7f7-41e8-45ab-833e-7e0b47f9b6c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -8.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e19db80b-b17a-45bc-9c8c-90424802a1e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9 -3)
+		(end 8.75 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a3d04832-e868-45c6-bdc7-720cc6a0ad13")
+	)
+	(fp_rect
+		(start -9.25 -3.25)
+		(end 9 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ea54e346-3b95-42fe-a76b-593b185830c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11e6cdf4-91b8-4157-a4ad-c7a4c782c2cb")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7 0 90)
+		(size 5.6 3.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "d546dc1e-30bb-4f74-afd2-03d4b4874f9f")
+	)
+	(pad "2" smd rect
+		(at 6.75 0 90)
+		(size 5.6 3.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ad839e54-6ef2-4886-b859-e5f5fe0f5c1d")
+	)
+	(model "${KIPRJMOD}/Library_DO_NOT_CHANGE/3D_models/e_0100.3446d003.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+	(model "${KIPRJMOD}/Library_DO_NOT_CHANGE/3D_models/UMT-H.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
