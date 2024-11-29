@@ -221,4 +221,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/Library_DO_NOT_CHANGE/3D_models/BMR684_heatsink.stp"
+		(offset
+			(xyz 25.75 -7.5 14.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
