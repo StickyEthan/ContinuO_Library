@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "BMR6841100_0_1"
+		(symbol "BMR6841100_1_1"
 			(rectangle
 				(start 0 39.37)
 				(end 24.13 0)
@@ -58,12 +58,10 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "BMR6841100_1_1"
-			(pin power_in line
+			(pin passive line
 				(at 26.67 36.83 180)
 				(length 2.54)
 				(name "+IN"
@@ -171,7 +169,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -2.54 34.29 0)
 				(length 2.54)
 				(name "SA0"
@@ -189,7 +187,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 26.67 31.75 180)
 				(length 2.54)
 				(name "RC"
@@ -225,7 +223,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 26.67 21.59 180)
 				(length 2.54)
 				(name "-OUT"
@@ -279,7 +277,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 26.67 6.35 180)
 				(length 2.54)
 				(name "+Sense"
