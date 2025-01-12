@@ -121,7 +121,15 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(text "+"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 0 0)
 				(length 2.54)
 				(name ""
@@ -139,7 +147,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name ""

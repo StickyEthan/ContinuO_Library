@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "  General Purpose Amplifier 2 Circuit Rail-to-Rail"
+		(property "Description" "General Purpose Amplifier 2 Circuit Rail-to-Rail"
 			(at 0 18.288 0)
 			(effects
 				(font
