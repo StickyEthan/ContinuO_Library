@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW14"
+		(property "Footprint" "footprints:PW14"
 			(at -0.508 9.144 0)
 			(effects
 				(font

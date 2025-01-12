@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_TEX"
+		(property "Footprint" "footprints:SOT-23-5_DBV_TEX"
 			(at 0 11.176 0)
 			(effects
 				(font
