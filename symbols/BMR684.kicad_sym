@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -2.54 8.89 0)
 				(length 2.54)
 				(name "DGND"
@@ -205,7 +205,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 26.67 26.67 180)
 				(length 2.54)
 				(name "-IN"
