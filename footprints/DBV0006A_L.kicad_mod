@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TLV1805DBVR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.01 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f26e0882-1a3e-4102-81fd-bab8a674fb28")
@@ -86,8 +86,8 @@
 		(uuid "bb887b97-861f-4943-995c-12143325f237")
 	)
 	(fp_line
-		(start -1.750002 -1.650002)
-		(end 1.749999 -1.650002)
+		(start -1.75 -1.65)
+		(end 1.75 -1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "881ba39c-1f75-46b3-9fe2-5cdb356b75f9")
 	)
 	(fp_line
-		(start -1.750002 1.649999)
-		(end -1.750002 -1.650002)
+		(start -1.75 1.65)
+		(end -1.75 -1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "a8dd5a1c-a92d-43cd-ab7f-51778b0ed6ee")
 	)
 	(fp_line
-		(start -1.750002 1.649999)
-		(end 1.749999 1.649999)
+		(start -1.75 1.65)
+		(end 1.75 1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -116,28 +116,8 @@
 		(uuid "87650f6d-e497-4b3c-8023-7f54bc0672a3")
 	)
 	(fp_line
-		(start -0.500002 0)
-		(end 0.499999 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1f560797-9b81-46a9-9ddb-f8453f620c13")
-	)
-	(fp_line
-		(start 0 0.499999)
-		(end 0 -0.500002)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "05ea4889-54d5-4252-bafa-cca1ed56acaa")
-	)
-	(fp_line
-		(start 1.749999 1.649999)
-		(end 1.749999 -1.650002)
+		(start 1.75 1.65)
+		(end 1.75 -1.65)
 		(stroke
 			(width 0.05)
 			(type solid)

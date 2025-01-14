@@ -78,6 +78,18 @@
 		(layer "F.CrtYd")
 		(uuid "fa4a1d58-b762-432a-a43c-985c861b1914")
 	)
+	(fp_text user "<-AIRFLOW->"
+		(at 24.31 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0223193b-9101-46d5-9db0-22fce1ea5cca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -6.08 0)
 		(unlocked yes)

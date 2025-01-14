@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:LFPAK88"
+		(property "Footprint" ""
 			(at 0 -0.254 0)
 			(effects
 				(font

@@ -188,7 +188,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 2.54 0)
+				(at -10.16 1.27 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 0 0)
+				(at -10.16 -1.27 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -5.08 0)
+				(at -10.16 3.81 0)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -5.08 0)
+				(at -10.16 -3.81 0)
 				(length 5.08)
 				(name "SHIELD"
 					(effects
