@@ -109,8 +109,8 @@
 					(type none)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 -1.27 180)
+			(pin passive line
+				(at 0 -3.81 90)
 				(length 1.27) hide
 				(name "NC"
 					(effects
@@ -127,8 +127,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 1.27 180)
+			(pin passive line
+				(at 0 -3.81 90)
 				(length 1.27) hide
 				(name "a"
 					(effects
